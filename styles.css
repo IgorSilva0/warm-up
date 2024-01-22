@@ -44,10 +44,25 @@
     font-size: small;
     padding-bottom: 30px;
 }
+#optionsNames a {
+   text-decoration: none;
+}
+a:visited { 
+    color: rgb(0, 0, 0);
+  }
 #firstimg {
     margin: 20px;
     height: 380px;
     width: 90%;
     border-radius: 30px;
 }
-  
+#details {
+    padding-left: 20px;
+}
+#details span{
+    display: flex;
+    padding-top: 3px;
+}
+#price{
+    text-decoration: underline;
+}
